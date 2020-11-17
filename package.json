@@ -1,0 +1,26 @@
+{
+    "name": "BitcubeEval2",
+    "version": "1.0.0",
+    "description": "Bitcube assessment section 1 OOPS",
+    "main": "index.js",
+    "scripts": {
+        "start_database": "node db_connections/postgresConnection"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Elijahthe3rd/BitcubeEval.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Elijahthe3rd/BitcubeEval/issues"
+    },
+    "homepage": "https://github.com/Elijahthe3rd/BitcubeEval#readme",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "mongoose": "^5.10.14",
+        "nodemon": "^2.0.6",
+        "pg": "^8.5.0"
+    }
+}
